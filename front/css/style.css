@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url(../fonts/Apoc-Normal-Trial.ttf);
+}
+body {
+  font-family: "Apoc-Normal-Trial", "Inter";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1270px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 66px;
+  line-height: 80px;
+  color: #131619;
+}
+@media (max-width: 991px) {
+  .main-heading {
+    font-size: 52px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 36px;
+    line-height: 52px;
+  }
+}
+.main-heading_white {
+  color: #fff;
+}
+.main-heading_medium {
+  font-weight: 700;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+.descr {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #131619;
+}
+.descr_white {
+  color: #fff;
+}
+
+.btn {
+  border-radius: 100px;
+  box-shadow: 0px 4px 8px 0px rgba(26, 26, 24, 0.29);
+  background: rgb(0, 0, 0);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  width: 240px;
+}
+
+.main-sec {
+  padding: 132px 0 120px;
+}
+@media (max-width: 991px) {
+  .main-sec {
+    padding: 80px 0 112px;
+  }
+}
+@media (max-width: 768px) {
+  .main-sec {
+    padding: 44px 0 112px;
+  }
+}
+.main-sec__text {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .main-sec__text {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .main-sec__text {
+    width: 100%;
+  }
+}
+.main-sec__text .main-heading {
+  margin-bottom: 12px;
+}
+.main-sec__text .descr {
+  margin-bottom: 28px;
+}
+
+.financial-services {
+  padding: 118px 0 120px;
+  background-color: #131619;
+}
+@media (max-width: 991px) {
+  .financial-services {
+    padding: 80px 0;
+  }
+}
+.financial-services__text {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .financial-services__text {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+.financial-services__text .main-heading {
+  margin-bottom: 12px;
+}
+.financial-services__picture {
+  width: 70%;
+  margin: 0 auto 120px;
+  position: relative;
+  height: 715px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .financial-services__picture {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .financial-services__picture {
+    margin: 0 auto 65px;
+    height: 500px;
+  }
+}
+.financial-services__picture .img-large {
+  min-height: 715px;
+}
+@media (max-width: 768px) {
+  .financial-services__picture .img-large {
+    min-height: auto;
+  }
+}
+.financial-services__picture .img {
+  position: absolute;
+}
+@media (max-width: 768px) {
+  .financial-services__picture .img:not(.img-large) {
+    display: none;
+  }
+}
+.financial-services__picture .img img {
+  width: 100%;
+  height: 100%;
+}
+.financial-services__picture .img1 {
+  top: 100px;
+  left: 85px;
+}
+.financial-services__picture .img2 {
+  top: 285px;
+  left: 65px;
+}
+.financial-services__picture .img3 {
+  bottom: 72px;
+  left: 0;
+}
+.financial-services__picture .img4 {
+  top: 82px;
+  right: 0;
+}
+.financial-services__picture .img5 {
+  top: 295px;
+  right: 12px;
+}
+.financial-services__picture .img6 {
+  bottom: 95px;
+  right: 51px;
+}
+.financial-services .financial-cards__card {
+  background-color: #222325;
+  border-radius: 12px 0px 0px 12px;
+}
+@media (max-width: 768px) {
+  .financial-services .financial-cards__card {
+    border-radius: 12px 12px 0 0;
+  }
+}
+.financial-services .financial-cards__card:last-of-type {
+  border-radius: 0px 12px 12px 0;
+}
+@media (max-width: 768px) {
+  .financial-services .financial-cards__card:last-of-type {
+    border-radius: 0px 0px 12px 12px;
+    margin-top: 12px;
+  }
+}
+
+.financial-cards {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .financial-cards {
+    flex-direction: column;
+  }
+}
+.financial-cards__card {
+  padding: 48px 32px 32px;
+  width: calc(50% - 6px);
+}
+@media (max-width: 768px) {
+  .financial-cards__card {
+    width: 100%;
+    padding: 40px 16px 24px;
+  }
+}
+.financial-cards__card:nth-of-type(odd) {
+  margin-right: 12px;
+}
+@media (max-width: 768px) {
+  .financial-cards__card:nth-of-type(odd) {
+    margin-right: 0;
+  }
+}
+.financial-cards__card .img {
+  width: 300px;
+  height: 170px;
+  margin: 0 auto 35px;
+}
+@media (max-width: 768px) {
+  .financial-cards__card .img {
+    width: 100%;
+    margin: 0 auto 40px;
+    height: auto;
+  }
+}
+.financial-cards__card .img img {
+  width: 100%;
+  height: 100%;
+}
+.financial-cards__card .heading {
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .financial-cards__card .heading {
+    margin-bottom: 12px;
+  }
+}
+
+.security-sec {
+  background-color: #131619;
+  padding: 131px 0;
+}
+@media (max-width: 991px) {
+  .security-sec {
+    padding: 80px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .security-sec {
+    padding: 80px 0;
+  }
+}
+.security-sec .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .security-sec .flex {
+    flex-direction: column;
+  }
+}
+.security-sec__text {
+  width: 35%;
+}
+@media (max-width: 991px) {
+  .security-sec__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .security-sec__text {
+    margin-bottom: 107px;
+  }
+}
+.security-sec__text .main-heading {
+  margin-bottom: 12px;
+}
+.security-sec__img {
+  width: 40%;
+}
+@media (max-width: 991px) {
+  .security-sec__img {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .security-sec__img {
+    width: 95%;
+  }
+}
+.security-sec__img img {
+  width: 100%;
+}
+
+.concierge-services {
+  background-color: #fff;
+  padding: 120px 0;
+}
+@media (max-width: 991px) {
+  .concierge-services {
+    padding: 80px 0;
+  }
+}
+.concierge-services__text {
+  width: 65%;
+  margin: 0 auto 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .concierge-services__text {
+    width: 100%;
+    margin: 0 auto 60px;
+  }
+}
+.concierge-services__text .main-heading {
+  margin-bottom: 12px;
+}
+.concierge-services__interaction-part {
+  border-radius: 12px 12px 0px 0px;
+  background-color: #131619;
+  padding: 52px 24px 0px 24px;
+  margin-bottom: 12px;
+}
+@media (max-width: 991px) {
+  .concierge-services__interaction-part {
+    padding: unset;
+    overflow: hidden;
+  }
+}
+.concierge-services__interaction-part_text {
+  width: 90%;
+  margin: 0 auto 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .concierge-services__interaction-part_text {
+    width: 100%;
+    padding: 52px 24px 70px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .concierge-services__interaction-part_text {
+    padding: 52px 16px 55px;
+  }
+}
+.concierge-services__interaction-part_text .heading {
+  margin-bottom: 16px;
+}
+.concierge-services__interaction-part_img {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  vertical-align: bottom;
+}
+@media (max-width: 991px) {
+  .concierge-services__interaction-part_img {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+}
+@media (max-width: 991px) {
+  .concierge-services__interaction-part_img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+  }
+}
+.concierge-services__interaction-part_img img {
+  width: 100%;
+}
+.concierge-services .financial-cards__card {
+  background-color: #131619;
+}
+.concierge-services .financial-cards__card:first-of-type {
+  border-radius: 0px 0px 0px 12px;
+}
+@media (max-width: 768px) {
+  .concierge-services .financial-cards__card:first-of-type {
+    border-radius: unset;
+    margin-bottom: 12px;
+  }
+}
+.concierge-services .financial-cards__card:last-of-type {
+  border-radius: 0px 0px 12px 0px;
+}
+@media (max-width: 768px) {
+  .concierge-services .financial-cards__card:last-of-type {
+    border-radius: 0 0 12px 12px;
+  }
+}
