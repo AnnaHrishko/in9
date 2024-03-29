@@ -359,6 +359,39 @@ header .menu li a {
   }
 }
 
+.telecom-platform {
+  padding: 120px 0;
+}
+@media (max-width: 991px) {
+  .telecom-platform {
+    padding: 80px 0;
+  }
+}
+.telecom-platform__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+  width: 65%;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .telecom-platform__text {
+    width: 80%;
+    margin-bottom: 52px;
+  }
+}
+@media (max-width: 768px) {
+  .telecom-platform__text {
+    width: 100%;
+    margin-bottom: 38px;
+  }
+}
+.telecom-platform__text .main-heading {
+  margin-bottom: 12px;
+}
+
 .security-sec {
   background-color: #131619;
   padding: 131px 0;

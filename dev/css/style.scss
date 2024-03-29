@@ -298,6 +298,32 @@ header{
         }
     }
 }
+.telecom-platform{
+    padding: 120px 0;
+    @media(max-width: 991px){
+        padding: 80px 0;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 80px;
+        width: 65%;
+        margin: 0 auto;
+        @media(max-width: 991px){
+            width: 80%;
+            margin-bottom: 52px;
+        }
+        @media(max-width: 768px){
+            width: 100%;
+            margin-bottom: 38px;
+        }
+        .main-heading{
+            margin-bottom: 12px;
+        }
+    }
+}
 .security-sec{
     background-color: #131619;
     padding: 131px 0;

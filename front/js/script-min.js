@@ -1,0 +1,1 @@
+function passwordCheck(){let e,o=getCookie(e),t=prompt("Please enter the password:");if("true"==o)e=!0,window.location="index.html";else if(""!=t&&null!=t)for(;"true"!==o;)t=prompt("Please enter the correct password:")}window.onload=passwordCheck;
