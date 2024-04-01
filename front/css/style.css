@@ -147,6 +147,15 @@ header .menu li a {
   color: #000000;
   text-decoration: none;
 }
+header .btn {
+  width: 160px;
+}
+@media (max-width: 991px) {
+  header .btn {
+    width: 121px;
+    padding: 12px 0;
+  }
+}
 @media (max-width: 768px) {
   header .btn {
     display: none;
@@ -395,6 +404,7 @@ header .menu li a {
 .security-sec {
   background-color: #131619;
   padding: 131px 0;
+  min-height: 100vh;
 }
 @media (max-width: 991px) {
   .security-sec {
